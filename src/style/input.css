@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* npx @tailwindcss/cli -i ./src/style/input.css -o ./src/style/output.css --watch */
+
+@font-face {
+  font-family: orbitron;
+  src: url(../fonts/Orbitron-Regular.ttf);
+}
+
+body {
+  font-family: orbitron;
+  user-select: none;
+  background-color: rgb(87, 87, 87);
+}
